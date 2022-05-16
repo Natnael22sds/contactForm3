@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+:root {
+  --header-height: 3rem;
+  --hue-color: 190;
+/* HSL color */
+  --first-color: hsl(var(--hue-color), 64%, 22%);
+  --first-color-second: hsl(var(--hue-color), 64%, 22%);
+  --first-color-alt: hsl(var(--hue-color), 64%, 15%);
+  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --text-color: hsl(var(--hue-color), 24%, 35%);
+  --text-color-light: hsl(var(--hue-color), 8%, 60%);
+  --input-color: hsl(var(--hue-color), 24%, 97%);
+  --body-color: hsl(var(--hue-color), 100%, 99%);
+  --white-color: #FFF;
+  /*========== Font and typography ==========*/
+  --body-font: 'Open Sans', sans-serif;
+  --title-font: 'Raleway', sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  /*========== Hover overlay ==========*/
+  --img-transition: .3s;
+  --img-hidden: hidden;
+  --img-scale: scale(1.1);
+}
+
+body{
+
+    background: linear-gradient(rgba(0, 0 , 50, 0.5), rgba(0, 0 , 50, 0.5)), url(photo-1571487826877-36038b263301.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn {
+    width: 225px ;
+
+}
+.content-me {
+    color: #45b1e8;
+    margin-top: 15px;
+}
+
+.light {
+    color: blue;
+}
+.look-up {
+    margin-left: 30px;
+}
+.shoot {
+    margin-left: 30px;
+}
+.shine-me {
+    margin-left: 400px;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+ul li {
+    list-style: none;
+    display: inline;
+    float: left;
+    line-height: 100px;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 14px ;
+    font-family: arial;
+    color: black;
+    padding: 0 20px;
+}
+ul li a:hover {
+      color: red;
+}
+ul {
+    margin-left: 60px;
+}
+body {
+    font-family: italic;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #45b1e8;
+}
+
+h2 {
+    padding: 10px;
+    color: red;
+
+}
+.submission-form {
+    max-width: 400px;
+    margin: 10px;
+   
+}
+label {
+    width: 600px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input {
+    display: block;
+    border: none;
+    width: 100%;
+    padding: .25rem;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.send-btn {
+    border: 0;
+    background: #343050;
+    padding: .5rem;
+    color: white;
+    margin: 1rem 0;
+    width: auto;
+    text-transform: uppercase;
+    cursor: pointer;
+
+  }
+  .send-btn:hover {
+    background: #3498db;
+  
+  }
+    
